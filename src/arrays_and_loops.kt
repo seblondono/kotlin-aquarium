@@ -3,7 +3,7 @@ import java.util.Arrays
 fun main() {
     // How to mutate a list
     val myList = mutableListOf("tuna", "salmon", "shark")
-    myList = mutableListOf("koi", "goldfish") // error
+    //myList = mutableListOf("koi", "goldfish") // error
     
     val myList2 = mutableListOf("tuna", "salmon", "shark")
     myList2.remove("shark")
@@ -17,7 +17,7 @@ fun main() {
     val numbers = intArrayOf(1, 2, 3)
     
     // cannot add elements of different type to a typed array
-    println(Arrays.toString(intArrayOf(2, "foo")))
+    //println(Arrays.toString(intArrayOf(2, "foo")))
     
     // but you can mix types on untyped arrays
     val mix = arrayOf("fish", 2)
